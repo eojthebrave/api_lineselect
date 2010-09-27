@@ -1,0 +1,30 @@
+/* $Id;$ */
+table.php {
+  border: 1px solid #ccc;
+  display: block;
+  overflow-x: scroll;
+  width: 100%;
+}
+
+table.php pre {
+  margin: 0;
+  padding: 0;
+}
+
+table.php .line,
+table.php span.linenumber {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+table.php span.linenumber {
+  border-right: 1px solid #ccc;
+  color: #888;
+  cursor: pointer;
+  padding: 0 0.5em;
+}
+
+table.php .selected {
+  background-color: #ffc;
+}

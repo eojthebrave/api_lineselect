@@ -1,0 +1,16 @@
+<?php
+// $Id;$
+
+/**
+ * @file
+ * Display line numbers that can be selected and linked to on API documentation
+ * pages.
+ */
+
+/**
+ * Implements hook_init().
+ */
+function api_lineselect_init() {
+  drupal_add_js(drupal_get_path('module', 'api_lineselect') . '/api_lineselect.js');
+  drupal_add_css(drupal_get_path('module', 'api_lineselect') . '/api_lineselect.css');
+}

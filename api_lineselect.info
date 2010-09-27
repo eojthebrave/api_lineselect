@@ -1,0 +1,6 @@
+; $Id;$
+name = API Line Select
+description = Display selectable line numbers on API documentation <code> elements
+package = Development
+core = 6.x
+dependencies[] = api
